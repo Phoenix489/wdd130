@@ -1,0 +1,55 @@
+body {
+    background-color: lightblue;
+}
+
+#title {
+    color:white;
+    text-align: center;
+}
+
+#title:hover {
+    color: black;
+}
+
+#quote {
+    color: white;
+    text-align: center;
+}
+
+#quoteGiver {
+    color: white;
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+}
+
+ol {
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    size: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-left: 17.5em;
+    margin-right: 17.5em;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
