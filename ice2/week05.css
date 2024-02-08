@@ -1,0 +1,19 @@
+body {
+    background-color: #737373;
+}
+
+#hero-img img {
+    width: 100%;  
+}
+
+#image-container img {
+    border-radius: 50%;
+    display: inline;
+    max-width: 17%;
+    border: 15px solid #444444;
+    margin: 70px;
+}
+
+#image-container {
+    text-align: center;
+}

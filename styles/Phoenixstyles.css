@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ubuntu&display=swap');
+
 body {
     background-color:beige;
     margin: 0;
@@ -26,11 +28,31 @@ img {
     width: 45%;
     display: block;
     margin: 0 auto;
-    border: 2px solid black
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow:hidden;
+    padding: 5px
+
+}
+
+#my-info{
+    text-align: center;
+    font-family: "Ubuntu", "Bradley Hand", serif;
+    width: 45%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(199, 53, 0, 0.363);
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 p {
     text-align: center;
+    font-family: "Ubuntu", "Bradley Hand", serif;
+    width: 45%;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 a {
@@ -38,18 +60,23 @@ a {
 }
 
 nav a {
-    text-decoration:none
+    text-decoration:none;
+    font-family: "Ubuntu", "Bradley Hand", serif;
+    
 }
 nav a:hover {
     color: rgb(199, 53, 0);
+    background-color: rgba(54, 54, 54, 0.336);
 }
 
 #main_title {
     font-size: 3.5em;
     text-align: center;
+    font-family: "Permanent Marker";
 }
 
 footer {
     background-color:rgba(79, 79, 79, 0.336);
+    margin: 20px
 }
 
