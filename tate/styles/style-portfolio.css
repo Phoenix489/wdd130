@@ -14,18 +14,24 @@
     background-color: rgba(0, 0, 0, 0.9);
   }
   
+  .wide-modal-content {
+    display: block;
+    margin: auto;
+    max-width:90%; /* Limit maximum width of the modal content */
+    max-height: 90%;
+  }
+
   .modal-content {
     display: block;
     margin: auto;
-    max-width: 90%; /* Limit maximum width of the modal content */
-    max-height: 90%; /* Limit maximum height of the modal content */
+    max-width:40%; /* Limit maximum width of the modal content */
   }
 
   .modal-content img {
     max-width: 80vw; /* Limit the maximum width of the images */
     max-height: 80vh; /* Limit the maximum height of the images */
-    width: auto; /* Ensure the width adjusts to maintain aspect ratio */
-    height: auto; /* Ensure the height adjusts to maintain aspect ratio */
+    /* width: auto; Ensure the width adjusts to maintain aspect ratio */
+    height: auto; 
     display: block; /* Ensure proper spacing */
     margin: auto; /* Center the image horizontally */
   }
@@ -71,7 +77,7 @@
 }
 
 img {
-    width: 75%;
+    width: 70%;
     border: black 2px solid;
     margin: 15px
 }
