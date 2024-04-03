@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tate | Contact</title>
+    <link rel="stylesheet" href="styles/style-contact.css">
 </head>
 <body>
     <div id="content">
@@ -19,28 +20,21 @@
             </nav>
         </header>
 
-        <main>
-            <div id="feedback"></div>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                    <li>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li>
-                        <label for="mail">Email:</label>
-                        <input type="email" id="mail" name="user_email" />
-                    </li>
-                    <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                    <li class="button">
-                        <button type="submit">Send your message</button>
-                    </li>
-                </ul>
-            </form>  
-        </main>
+        <div class="container">
+            <h2>Contact Form</h2>
+            <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </div>
 
         <footer>
             <p>Tate Portfolio &copy; 2024 - Phoenix Stephan</p>
