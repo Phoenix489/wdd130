@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
-img {
-    width: 70%;
-    border: black 2px solid;
-    margin: 15px
-}
-
 body {
     justify-content: center;
     align-items: center;
@@ -45,7 +39,7 @@ nav {
 .logo {
     width: 140px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin: 15px;
 }
 
 nav a:hover .logo {
@@ -130,8 +124,10 @@ footer .social img {
     padding-top: 15px;
 }
 
-.social {
-    width: 60px
+.social img {
+    width: 60px;
+    border: black 2px solid;
+    margin: 15px
 }
 
 h1 {
