@@ -142,14 +142,14 @@ video {
   
   .wide-modal-content {
     display: block;
-    margin: auto;
+    margin: 5% auto;
     max-width:90%; /* Limit maximum width of the modal content */
     max-height: 90%;
   }
 
   .modal-content {
     display: block;
-    margin: auto;
+    margin: 5% auto;
     max-width:40%; /* Limit maximum width of the modal content */
   }
 
