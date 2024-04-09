@@ -16,24 +16,26 @@
   
   .wide-modal-content {
     display: block;
-    margin: auto;
+    margin: 5% auto;
     max-width:90%; /* Limit maximum width of the modal content */
     max-height: 90%;
   }
 
   .modal-content {
     display: block;
-    margin: auto;
+    margin: 5% auto;
     max-width:40%; /* Limit maximum width of the modal content */
+    
   }
 
   .modal-content img {
-    max-width: 80vw; /* Limit the maximum width of the images */
-    max-height: 80vh; /* Limit the maximum height of the images */
+    max-width: 60vw; /* Limit the maximum width of the images */
+    max-height: 60vh; /* Limit the maximum height of the images */
     /* width: auto; Ensure the width adjusts to maintain aspect ratio */
-    height: auto; 
-    display: block; /* Ensure proper spacing */
-    margin: auto; /* Center the image horizontally */
+    /* height: auto;  */
+    display: flex; /* Ensure proper spacing */
+    align-items: center;
+    margin: 0 auto; /* Center the image horizontally */
   }
   
   .close {
